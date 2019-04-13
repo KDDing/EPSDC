@@ -7,3 +7,6 @@ The framework EPSDC has some highlight as follows:
 1.	The biological, chemical, pharmacological and network data could provide more abundant knowledge that enables EPSDC to predict potential drug combinations with multi perspectives;
 2.	Network-based base predictor using transductive learning could prioritize potential drug combinations without negative drug combination sample, which is hard to be obtained. Meanwhile, integrating network-based predictor could correct the error caused by negative sample selection in feature-based predictor;
 3.	Our method outperform the state-of-the-art method under five-fold cross validation scheme.
+
+
+Note: supplementary material2.xlsx and supplementary material2.xlsx are the corrected dataset.
