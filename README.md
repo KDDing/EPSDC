@@ -9,4 +9,4 @@ The framework EPSDC has some highlight as follows:
 3.	Our method outperform the state-of-the-art method under five-fold cross validation scheme.
 
 
-Note: supplementary material2.xlsx and supplementary material2.xlsx are the corrected dataset.
+Note: supplementary material2.xlsx and supplementary material3.xlsx are the corrected dataset.
