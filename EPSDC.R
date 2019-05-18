@@ -96,7 +96,7 @@ hetesim <- function(DG_mat, DD_mat, GG_mat, m_p) {
   drug_num <- dim(DD_mat)[1]
   comp_mat1 <- diag(drug_num)
   comp_mat2 <- diag(drug_num)
-  #the length of meta-path is even 
+  #the length of meta-path is odd 
   if (nchar(m_p)%%2==0) {
     #obtain the middle position and then decompose meta-path
     so <- floor(nchar(m_p)/2)-1
@@ -164,7 +164,7 @@ hetesim <- function(DG_mat, DD_mat, GG_mat, m_p) {
     #drugsim_mat <- matrix(nrow=drug_num,ncol=drug_num)
     drugsim_mat <- final_nor(comp_mat1,t(comp_mat2))
   } else {
-    #the length of meta-path is odd
+    #the length of meta-path is even
     #traverse the first decomposed meta-path
     for (j in 1:floor(nchar(m_p)/2)) {
       comp_mat1 <- row_nor(comp_mat1)
